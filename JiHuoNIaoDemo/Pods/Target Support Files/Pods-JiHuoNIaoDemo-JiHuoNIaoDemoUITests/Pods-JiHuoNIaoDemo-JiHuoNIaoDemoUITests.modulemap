@@ -1,0 +1,6 @@
+framework module Pods_JiHuoNIaoDemo_JiHuoNIaoDemoUITests {
+  umbrella header "Pods-JiHuoNIaoDemo-JiHuoNIaoDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
