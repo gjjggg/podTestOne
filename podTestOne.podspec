@@ -46,5 +46,8 @@ TODO: Add long description of the pod here.
   s.libraries = 'bz2', 'c++', 'iconv', 'resolv.9', 'sqlite3', 'xml2', 'z', 'c++abi'
   s.dependency 'WechatOpenSDK'
   s.static_framework = true
+  s.pod_target_xcconfig = {
+  'OTHER_LDFLAGS' => '-ObjC -all_load'
+  }
 end
  
