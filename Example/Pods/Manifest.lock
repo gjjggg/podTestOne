@@ -1,15 +1,22 @@
 PODS:
-  - podTestOne (0.1.0)
+  - podTestOne (0.0.4):
+    - WechatOpenSDK
+  - WechatOpenSDK (2.0.4)
 
 DEPENDENCIES:
   - podTestOne (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - WechatOpenSDK
 
 EXTERNAL SOURCES:
   podTestOne:
     :path: "../"
 
 SPEC CHECKSUMS:
-  podTestOne: 7b44a17f279e0db768dfd75d7a3f268cb8971648
+  podTestOne: e5179d109b447c0f6593fd2c220f7cf33b7e6735
+  WechatOpenSDK: 290989072e87b79d52225a01bb4e5e58f6f88593
 
 PODFILE CHECKSUM: 29dbfdc23833c908d1491d4ec7703b458777a313
 

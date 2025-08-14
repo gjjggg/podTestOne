@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'podTestOne'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'A short description of podTestOne.'
 
 # This description is used to generate tags and improve search results.
@@ -29,10 +29,12 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
+  s.static_framework = true
+  s.requires_arc    = true
 
   s.source_files = 'podTestOne/Classes/**/*.{h,m}'
   s.vendored_frameworks = 'SDK/jihuoniao_target_ads.framework'
-   s.resources = ['SDK/jihuoniao_target_ads.bundle']
+  s.resources = ['SDK/jihuoniao_target_ads.bundle']
 
   
 #   s.resource_bundles = {
@@ -45,7 +47,7 @@ TODO: Add long description of the pod here.
 
   s.libraries = 'bz2', 'c++', 'iconv', 'resolv.9', 'sqlite3', 'xml2', 'z', 'c++abi'
   s.dependency 'WechatOpenSDK'
-  s.static_framework = true
+  
   s.pod_target_xcconfig = {
   'OTHER_LDFLAGS' => '-ObjC -all_load'
   }

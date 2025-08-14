@@ -7,12 +7,14 @@
 //
 
 #import "JIHUONIAOAppDelegate.h"
+#import <jihuoniao_target_ads/jihuoniao_target_ads.h>
 
 @implementation JIHUONIAOAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [JiHuoNiaoSDKManagerHZ startWithAppid:@"1" AppKey:@"s" isGetLocation:YES];
     return YES;
 }
 

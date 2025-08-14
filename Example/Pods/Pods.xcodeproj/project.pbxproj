@@ -6,70 +6,104 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4AF0DF2249DC5CF1F6B67BE5469CE54C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = WechatOpenSDK;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		22934BF48565BED79718699FBC1023B2 /* Pods-podTestOne_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C01A94F5DBD7E5E892EA0CEBEBFA4F /* Pods-podTestOne_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F964514687A753508F450F28AD39A95 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FD4BC49AC53FF962818F9155478564 /* ReplaceMe.m */; };
-		4364E7ADCF82A58F256BC29749F27E7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		1009D757ABFE50221D7D47D216F4F7A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		2C9DD1CA5FF4F66559E5FFC6E8BC8157 /* Pods-podTestOne_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A012C747B243A36037D4402C71D1B01 /* Pods-podTestOne_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54DDDB5E2CCA18E63FFCD71121C4FA51 /* Pods-podTestOne_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEE6CBE8DF8E970F829606D54E729CA /* Pods-podTestOne_Example-dummy.m */; };
 		55B44917EF2D00C773142B9CCAA73EC3 /* Pods-podTestOne_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA891D5E3496478B0F2CC745F8D7566 /* Pods-podTestOne_Tests-dummy.m */; };
-		621D85ABAA9EF767EE914D7C14C07AA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		5E5C4C5F1AC9F5F8F9A627181A10C5F1 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E38235B848971DFA6113E4E7574A26D /* ReplaceMe.m */; };
 		73BC584F87A46920C3DF5CFA4B44EF4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		7F74B2FABC71128C9D589FAF7F96889B /* podTestOne-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93EDFDD0D9AB72558690606BD6304443 /* podTestOne-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		842D44153D553485F0C849B7120BA007 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		B2FA72D9451B6EA4737AF94D443A0046 /* podTestOne-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF70FFF8A76F2D10B8E626613254D59 /* podTestOne-dummy.m */; };
 		B90824ED885DE379B815C935B91EE5C4 /* Pods-podTestOne_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0CF1A25F38E83EE3C0CA2D231501E54 /* Pods-podTestOne_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9C2581FF8484CFFDA844260F9AB15CD /* Pods-podTestOne_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCBD8C653B664EA4FC94B7A44A80A26 /* Pods-podTestOne_Example-dummy.m */; };
-		FAF00FBD11FC5CB05CFA4136B94D5AB7 /* podTestOne-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 055FF042225B2FFCF27D2CDA937585DA /* podTestOne-dummy.m */; };
+		DDEF6FC7BF91BDE7782B3C05114F3B2E /* podTestOne-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8E20342C5567BECB236C0C4FBCB40A /* podTestOne-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		41126851246185FD78C53601DE1FB540 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 724BC4388EAE370AEF7EE1C80641D901;
-			remoteInfo = podTestOne;
-		};
-		56B28BC99DACE2A2610A3BA3DB766227 /* PBXContainerItemProxy */ = {
+		4D07BBAE756C2754869AFFEF635AAE28 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DC07B583C8301408D886950CA3972138;
 			remoteInfo = "Pods-podTestOne_Example";
 		};
+		8375B9FBCCA2AD81E4EE3EFF886B3331 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 724BC4388EAE370AEF7EE1C80641D901;
+			remoteInfo = podTestOne;
+		};
+		8DAB8DF1776F839C042F063920A384FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+		9CE9199AEBF5F650C24C0DB4F884D3B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		055FF042225B2FFCF27D2CDA937585DA /* podTestOne-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "podTestOne-dummy.m"; sourceTree = "<group>"; };
-		14D2B2727C4E015FA65408DA8CC0C6CF /* Pods-podTestOne_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-podTestOne_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		143B8C55BC58000F06845D8D856284F2 /* Pods-podTestOne_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-podTestOne_Example.release.xcconfig"; sourceTree = "<group>"; };
 		19D4EC660C8CAAC6C7F99004941F198B /* Pods-podTestOne_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-podTestOne_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1DAC4DD97449F7145690B9093D23DDF8 /* Pods-podTestOne_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-podTestOne_Example.modulemap"; sourceTree = "<group>"; };
-		27C01A94F5DBD7E5E892EA0CEBEBFA4F /* Pods-podTestOne_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-podTestOne_Example-umbrella.h"; sourceTree = "<group>"; };
+		19D6CC72CF76FF6E556561F005995812 /* Pods-podTestOne_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-podTestOne_Example-resources.sh"; sourceTree = "<group>"; };
+		2BAF87D7EE688D6EC321DDE8A4E0D969 /* WechatOpenSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.debug.xcconfig; sourceTree = "<group>"; };
+		2F94D2FBD52407AD64EB35A674F3EF14 /* podTestOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = podTestOne.release.xcconfig; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3B1B6198A108B160328B2ED06981C65D /* Pods-podTestOne_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-podTestOne_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3DAF789609FACFEBD364B25971A61872 /* podTestOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = podTestOne.debug.xcconfig; sourceTree = "<group>"; };
-		411EBC3314C5AFA1D849D3C6D34A113C /* podTestOne.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = podTestOne.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5599F541ACD208ED60EC5BD57939CB35 /* Pods-podTestOne_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-podTestOne_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5634EE504D4EDE3349088923467D45F1 /* Pods-podTestOne_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-podTestOne_Example.release.xcconfig"; sourceTree = "<group>"; };
-		56E2E01335467584B040785C9FB3DEB2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		43447C81D6EE9040CD09B0F81A313879 /* jihuoniao_target_ads.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = jihuoniao_target_ads.bundle; path = SDK/jihuoniao_target_ads.bundle; sourceTree = "<group>"; };
+		471E67405040C4086FBC8C548D5405E5 /* podTestOne.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = podTestOne.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4A012C747B243A36037D4402C71D1B01 /* Pods-podTestOne_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-podTestOne_Example-umbrella.h"; sourceTree = "<group>"; };
+		4F0FD5D982E99BB5978D7CD1AEE38B7B /* podTestOne.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = podTestOne.modulemap; sourceTree = "<group>"; };
+		58BA2A753EBE7B6F127D776B7330195F /* Pods-podTestOne_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-podTestOne_Example-Info.plist"; sourceTree = "<group>"; };
 		5C6E5E8A0B2C1161258E3920B37A4DDA /* Pods-podTestOne_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-podTestOne_Tests-Info.plist"; sourceTree = "<group>"; };
-		5D78F3BAE233B180DC1BDF2ADD27EF67 /* podTestOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = podTestOne.release.xcconfig; sourceTree = "<group>"; };
-		5FC845BED2FA6A9F436FB9C110EBCAD2 /* podTestOne.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = podTestOne.modulemap; sourceTree = "<group>"; };
-		69FD4BC49AC53FF962818F9155478564 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = podTestOne/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		5E7B925669F1635E56A8B9F8C783C1A2 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK2.0.4/WXApiObject.h; sourceTree = "<group>"; };
+		62586EB012D046AC88276108E9D226DB /* Pods-podTestOne_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-podTestOne_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6E22244F2426B513090FA9AC71747FD8 /* Pods-podTestOne_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-podTestOne_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		70A93902FC7655B46F27C9F481FD8D82 /* Pods-podTestOne_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-podTestOne_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		776B59B622DA344F415B348C2A46A410 /* Pods-podTestOne_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-podTestOne_Tests"; path = Pods_podTestOne_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93EDFDD0D9AB72558690606BD6304443 /* podTestOne-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "podTestOne-umbrella.h"; sourceTree = "<group>"; };
-		96CB8B199503E3D001421A64FB7357FB /* Pods-podTestOne_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-podTestOne_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E38235B848971DFA6113E4E7574A26D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = podTestOne/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		7EEE6CBE8DF8E970F829606D54E729CA /* Pods-podTestOne_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-podTestOne_Example-dummy.m"; sourceTree = "<group>"; };
+		8103F98D60A5EF0B86F1499C00938769 /* Pods-podTestOne_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-podTestOne_Example.modulemap"; sourceTree = "<group>"; };
+		85052374812551B748B6ACA1AE60C00E /* podTestOne-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "podTestOne-prefix.pch"; sourceTree = "<group>"; };
+		9B5FEA193C789D8F8480367B143BA875 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0CF1A25F38E83EE3C0CA2D231501E54 /* Pods-podTestOne_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-podTestOne_Tests-umbrella.h"; sourceTree = "<group>"; };
-		AA2C1E04A6D2E996711571E79EA17314 /* podTestOne-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "podTestOne-prefix.pch"; sourceTree = "<group>"; };
+		BCF70FFF8A76F2D10B8E626613254D59 /* podTestOne-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "podTestOne-dummy.m"; sourceTree = "<group>"; };
 		BE3162DCED3C1B0C100A2A4C5B863DDB /* Pods-podTestOne_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-podTestOne_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C11A2C52BB7E9F686C66681E507ACC40 /* Pods-podTestOne_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-podTestOne_Example"; path = Pods_podTestOne_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1B1923CAAAE7DD2FDB5A60406E88730 /* podTestOne-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "podTestOne-Info.plist"; sourceTree = "<group>"; };
+		C2F8EA6FAA1FC08F3B5536CA2AC1ABBB /* podTestOne-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "podTestOne-Info.plist"; sourceTree = "<group>"; };
+		C91C16DF701B3E79C6A9D2DA58668684 /* WechatOpenSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.release.xcconfig; sourceTree = "<group>"; };
+		CA47412077506CDC574747904DB2A703 /* podTestOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = podTestOne.debug.xcconfig; sourceTree = "<group>"; };
+		D07CF89026583F669EE4125D8021464F /* libWechatOpenSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWechatOpenSDK.a; path = OpenSDK2.0.4/libWechatOpenSDK.a; sourceTree = "<group>"; };
 		D2179076F561AA000DB86564BC365AAE /* Pods-podTestOne_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-podTestOne_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D623463E7E933B7539A2967665A6D093 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		DCA891D5E3496478B0F2CC745F8D7566 /* Pods-podTestOne_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-podTestOne_Tests-dummy.m"; sourceTree = "<group>"; };
-		DFCBD8C653B664EA4FC94B7A44A80A26 /* Pods-podTestOne_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-podTestOne_Example-dummy.m"; sourceTree = "<group>"; };
+		DD8E20342C5567BECB236C0C4FBCB40A /* podTestOne-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "podTestOne-umbrella.h"; sourceTree = "<group>"; };
 		E7F4E80759F9959FB85FEEFAC9B70E2C /* Pods-podTestOne_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-podTestOne_Tests.modulemap"; sourceTree = "<group>"; };
-		F06E7408968EFBE1EE7273814736E5D3 /* Pods-podTestOne_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-podTestOne_Example-Info.plist"; sourceTree = "<group>"; };
-		FAD880962CE3ECFE6A58490D804A6D14 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E89046B15C430D7A3C9616914AC9474D /* Pods-podTestOne_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-podTestOne_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F252CD2E17A99703E6016824A7DA41BB /* jihuoniao_target_ads.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = jihuoniao_target_ads.framework; path = SDK/jihuoniao_target_ads.framework; sourceTree = "<group>"; };
 		FD71D44BC6594565BC9FA45ECF18F697 /* podTestOne */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = podTestOne; path = podTestOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA8982922BBB07090D009C0F5033A36 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK2.0.4/WechatAuthSDK.h; sourceTree = "<group>"; };
+		FFFE0DE0C56761511393BB5AF8744DA7 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK2.0.4/WXApi.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,19 +115,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A15F1C73D4EF3C9925887953887758C /* Frameworks */ = {
+		C2ED24163113FE15C693B6EC846D33CE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4364E7ADCF82A58F256BC29749F27E7D /* Foundation.framework in Frameworks */,
+				842D44153D553485F0C849B7120BA007 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8996D212001241B54E46BE520723A99 /* Frameworks */ = {
+		CAA8E096E7CFB678A73639B25BEF0E73 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				621D85ABAA9EF767EE914D7C14C07AA0 /* Foundation.framework in Frameworks */,
+				1009D757ABFE50221D7D47D216F4F7A3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,58 +150,91 @@
 			path = "Target Support Files/Pods-podTestOne_Tests";
 			sourceTree = "<group>";
 		};
-		37E6EAF3FA118B7D264DB25E4BF6A135 /* Development Pods */ = {
+		36393847572ABFBB3F399148BAAEDD7B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7A3919B86AD956BB7FA91FF51B4B4C58 /* podTestOne */,
+				860A280197501455A621409AE0B0D019 /* podTestOne */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		7A3919B86AD956BB7FA91FF51B4B4C58 /* podTestOne */ = {
+		3F8877C1F10EF6F6FFCACCCB5C5020B8 /* WechatOpenSDK */ = {
 			isa = PBXGroup;
 			children = (
-				69FD4BC49AC53FF962818F9155478564 /* ReplaceMe.m */,
-				A0D49920D751962D3A8B61875A9D87C3 /* Pod */,
-				DF36FDCE30CCED60D24EEAE8B372DF75 /* Support Files */,
+				FDA8982922BBB07090D009C0F5033A36 /* WechatAuthSDK.h */,
+				FFFE0DE0C56761511393BB5AF8744DA7 /* WXApi.h */,
+				5E7B925669F1635E56A8B9F8C783C1A2 /* WXApiObject.h */,
+				A0D3D6918D15420AD4BF59786A1FAF85 /* Frameworks */,
+				921AE90DC1AA197438DA79878003E46B /* Support Files */,
+			);
+			name = WechatOpenSDK;
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		52C06D29DE8A74D8B72B83758947D95F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F8877C1F10EF6F6FFCACCCB5C5020B8 /* WechatOpenSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		860A280197501455A621409AE0B0D019 /* podTestOne */ = {
+			isa = PBXGroup;
+			children = (
+				43447C81D6EE9040CD09B0F81A313879 /* jihuoniao_target_ads.bundle */,
+				7E38235B848971DFA6113E4E7574A26D /* ReplaceMe.m */,
+				C42E0FDC53ABF8F872A2D04AED1454D1 /* Frameworks */,
+				867A83D4969EF1E7F0737E058385894F /* Pod */,
+				EB49D8ABF60F1F83BD2D056C35D3C490 /* Support Files */,
 			);
 			name = podTestOne;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		A0D49920D751962D3A8B61875A9D87C3 /* Pod */ = {
+		867A83D4969EF1E7F0737E058385894F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				56E2E01335467584B040785C9FB3DEB2 /* LICENSE */,
-				411EBC3314C5AFA1D849D3C6D34A113C /* podTestOne.podspec */,
-				FAD880962CE3ECFE6A58490D804A6D14 /* README.md */,
+				D623463E7E933B7539A2967665A6D093 /* LICENSE */,
+				471E67405040C4086FBC8C548D5405E5 /* podTestOne.podspec */,
+				9B5FEA193C789D8F8480367B143BA875 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		AC19CEE058AED5126829536BD091947E /* Pods-podTestOne_Example */ = {
+		921AE90DC1AA197438DA79878003E46B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1DAC4DD97449F7145690B9093D23DDF8 /* Pods-podTestOne_Example.modulemap */,
-				14D2B2727C4E015FA65408DA8CC0C6CF /* Pods-podTestOne_Example-acknowledgements.markdown */,
-				96CB8B199503E3D001421A64FB7357FB /* Pods-podTestOne_Example-acknowledgements.plist */,
-				DFCBD8C653B664EA4FC94B7A44A80A26 /* Pods-podTestOne_Example-dummy.m */,
-				3B1B6198A108B160328B2ED06981C65D /* Pods-podTestOne_Example-frameworks.sh */,
-				F06E7408968EFBE1EE7273814736E5D3 /* Pods-podTestOne_Example-Info.plist */,
-				27C01A94F5DBD7E5E892EA0CEBEBFA4F /* Pods-podTestOne_Example-umbrella.h */,
-				5599F541ACD208ED60EC5BD57939CB35 /* Pods-podTestOne_Example.debug.xcconfig */,
-				5634EE504D4EDE3349088923467D45F1 /* Pods-podTestOne_Example.release.xcconfig */,
+				2BAF87D7EE688D6EC321DDE8A4E0D969 /* WechatOpenSDK.debug.xcconfig */,
+				C91C16DF701B3E79C6A9D2DA58668684 /* WechatOpenSDK.release.xcconfig */,
 			);
-			name = "Pods-podTestOne_Example";
-			path = "Target Support Files/Pods-podTestOne_Example";
+			name = "Support Files";
+			path = "../Target Support Files/WechatOpenSDK";
+			sourceTree = "<group>";
+		};
+		A0D3D6918D15420AD4BF59786A1FAF85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D07CF89026583F669EE4125D8021464F /* libWechatOpenSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C42E0FDC53ABF8F872A2D04AED1454D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F252CD2E17A99703E6016824A7DA41BB /* jihuoniao_target_ads.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				37E6EAF3FA118B7D264DB25E4BF6A135 /* Development Pods */,
+				36393847572ABFBB3F399148BAAEDD7B /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				52C06D29DE8A74D8B72B83758947D95F /* Pods */,
 				DEADCCC25D963EC679AD1D62075B0C64 /* Products */,
 				EFE6B4A290E2434B228FB6BAF7A31BE4 /* Targets Support Files */,
 			);
@@ -181,6 +248,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D469BE8CBDA0875C9A6DA9001B29C1BE /* Pods-podTestOne_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8103F98D60A5EF0B86F1499C00938769 /* Pods-podTestOne_Example.modulemap */,
+				E89046B15C430D7A3C9616914AC9474D /* Pods-podTestOne_Example-acknowledgements.markdown */,
+				62586EB012D046AC88276108E9D226DB /* Pods-podTestOne_Example-acknowledgements.plist */,
+				7EEE6CBE8DF8E970F829606D54E729CA /* Pods-podTestOne_Example-dummy.m */,
+				58BA2A753EBE7B6F127D776B7330195F /* Pods-podTestOne_Example-Info.plist */,
+				19D6CC72CF76FF6E556561F005995812 /* Pods-podTestOne_Example-resources.sh */,
+				4A012C747B243A36037D4402C71D1B01 /* Pods-podTestOne_Example-umbrella.h */,
+				70A93902FC7655B46F27C9F481FD8D82 /* Pods-podTestOne_Example.debug.xcconfig */,
+				143B8C55BC58000F06845D8D856284F2 /* Pods-podTestOne_Example.release.xcconfig */,
+			);
+			name = "Pods-podTestOne_Example";
+			path = "Target Support Files/Pods-podTestOne_Example";
+			sourceTree = "<group>";
+		};
 		DEADCCC25D963EC679AD1D62075B0C64 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,21 +275,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DF36FDCE30CCED60D24EEAE8B372DF75 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5FC845BED2FA6A9F436FB9C110EBCAD2 /* podTestOne.modulemap */,
-				055FF042225B2FFCF27D2CDA937585DA /* podTestOne-dummy.m */,
-				C1B1923CAAAE7DD2FDB5A60406E88730 /* podTestOne-Info.plist */,
-				AA2C1E04A6D2E996711571E79EA17314 /* podTestOne-prefix.pch */,
-				93EDFDD0D9AB72558690606BD6304443 /* podTestOne-umbrella.h */,
-				3DAF789609FACFEBD364B25971A61872 /* podTestOne.debug.xcconfig */,
-				5D78F3BAE233B180DC1BDF2ADD27EF67 /* podTestOne.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/podTestOne";
-			sourceTree = "<group>";
-		};
 		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -214,10 +283,25 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		EB49D8ABF60F1F83BD2D056C35D3C490 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F0FD5D982E99BB5978D7CD1AEE38B7B /* podTestOne.modulemap */,
+				BCF70FFF8A76F2D10B8E626613254D59 /* podTestOne-dummy.m */,
+				C2F8EA6FAA1FC08F3B5536CA2AC1ABBB /* podTestOne-Info.plist */,
+				85052374812551B748B6ACA1AE60C00E /* podTestOne-prefix.pch */,
+				DD8E20342C5567BECB236C0C4FBCB40A /* podTestOne-umbrella.h */,
+				CA47412077506CDC574747904DB2A703 /* podTestOne.debug.xcconfig */,
+				2F94D2FBD52407AD64EB35A674F3EF14 /* podTestOne.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/podTestOne";
+			sourceTree = "<group>";
+		};
 		EFE6B4A290E2434B228FB6BAF7A31BE4 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AC19CEE058AED5126829536BD091947E /* Pods-podTestOne_Example */,
+				D469BE8CBDA0875C9A6DA9001B29C1BE /* Pods-podTestOne_Example */,
 				0B109665D364C051259F8145EE9165D3 /* Pods-podTestOne_Tests */,
 			);
 			name = "Targets Support Files";
@@ -234,19 +318,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81944F8D49C30FD0201ADBFA40541A6B /* Headers */ = {
+		8F05C3278A8FAEEB16C469579A4AB765 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22934BF48565BED79718699FBC1023B2 /* Pods-podTestOne_Example-umbrella.h in Headers */,
+				DDEF6FC7BF91BDE7782B3C05114F3B2E /* podTestOne-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5C8E45ED37C6F70509FA79A95C72FC9 /* Headers */ = {
+		E4F4C9CB2671BE20438E049E89AC9C9A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F74B2FABC71128C9D589FAF7F96889B /* podTestOne-umbrella.h in Headers */,
+				2C9DD1CA5FF4F66559E5FFC6E8BC8157 /* Pods-podTestOne_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +349,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				2721B4F43C34D365403CAE2EE0F5989C /* PBXTargetDependency */,
+				F243DA65427FB793E995562774BE44AF /* PBXTargetDependency */,
 			);
 			name = "Pods-podTestOne_Tests";
 			productName = Pods_podTestOne_Tests;
@@ -274,16 +358,17 @@
 		};
 		724BC4388EAE370AEF7EE1C80641D901 /* podTestOne */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 86F66E088F81BEDCFB92C3B8229409FF /* Build configuration list for PBXNativeTarget "podTestOne" */;
+			buildConfigurationList = 69F5422E4AEC61228049ECFFA4A95523 /* Build configuration list for PBXNativeTarget "podTestOne" */;
 			buildPhases = (
-				F5C8E45ED37C6F70509FA79A95C72FC9 /* Headers */,
-				08EFE254A3E6AD8C20CD974BF2236804 /* Sources */,
-				9A15F1C73D4EF3C9925887953887758C /* Frameworks */,
-				1341B7998074A6B23AEE7F3C69BB35ED /* Resources */,
+				8F05C3278A8FAEEB16C469579A4AB765 /* Headers */,
+				7938FCD5763DC3AB58AF7BAC642D55D2 /* Sources */,
+				C2ED24163113FE15C693B6EC846D33CE /* Frameworks */,
+				97E32E9F4FFD0CEC364780C1626EBF07 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				64D2324A2DEAE070D9C8AA9F7494CF13 /* PBXTargetDependency */,
 			);
 			name = podTestOne;
 			productName = podTestOne;
@@ -292,17 +377,18 @@
 		};
 		DC07B583C8301408D886950CA3972138 /* Pods-podTestOne_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 677E378CBBC80A2B212037BB96CD34A2 /* Build configuration list for PBXNativeTarget "Pods-podTestOne_Example" */;
+			buildConfigurationList = 011E23C81DE47A33D402963E5E481506 /* Build configuration list for PBXNativeTarget "Pods-podTestOne_Example" */;
 			buildPhases = (
-				81944F8D49C30FD0201ADBFA40541A6B /* Headers */,
-				8EA0B7B357C494710E5D351E2E2A2CA9 /* Sources */,
-				A8996D212001241B54E46BE520723A99 /* Frameworks */,
-				D58E2A50A1C023708CAA252D216817B4 /* Resources */,
+				E4F4C9CB2671BE20438E049E89AC9C9A /* Headers */,
+				A21EA64AE9AA494C19AF9288305646B6 /* Sources */,
+				CAA8E096E7CFB678A73639B25BEF0E73 /* Frameworks */,
+				78D15A70C030337EEB4421A6BC91465C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F0943A251C3EFFD3A42E32A137A1EFE1 /* PBXTargetDependency */,
+				3DC1067E9B2E9ADEB90799D60CEE8B57 /* PBXTargetDependency */,
+				9E5E078D35D36FBB74AB4F7A8B52D94C /* PBXTargetDependency */,
 			);
 			name = "Pods-podTestOne_Example";
 			productName = Pods_podTestOne_Example;
@@ -336,12 +422,20 @@
 				DC07B583C8301408D886950CA3972138 /* Pods-podTestOne_Example */,
 				328C3CCBF7CC395A2DECA806BA26A3C8 /* Pods-podTestOne_Tests */,
 				724BC4388EAE370AEF7EE1C80641D901 /* podTestOne */,
+				8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1341B7998074A6B23AEE7F3C69BB35ED /* Resources */ = {
+		78D15A70C030337EEB4421A6BC91465C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E32E9F4FFD0CEC364780C1626EBF07 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -355,30 +449,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D58E2A50A1C023708CAA252D216817B4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		08EFE254A3E6AD8C20CD974BF2236804 /* Sources */ = {
+		7938FCD5763DC3AB58AF7BAC642D55D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAF00FBD11FC5CB05CFA4136B94D5AB7 /* podTestOne-dummy.m in Sources */,
-				2F964514687A753508F450F28AD39A95 /* ReplaceMe.m in Sources */,
+				B2FA72D9451B6EA4737AF94D443A0046 /* podTestOne-dummy.m in Sources */,
+				5E5C4C5F1AC9F5F8F9A627181A10C5F1 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EA0B7B357C494710E5D351E2E2A2CA9 /* Sources */ = {
+		A21EA64AE9AA494C19AF9288305646B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9C2581FF8484CFFDA844260F9AB15CD /* Pods-podTestOne_Example-dummy.m in Sources */,
+				54DDDB5E2CCA18E63FFCD71121C4FA51 /* Pods-podTestOne_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,21 +480,47 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2721B4F43C34D365403CAE2EE0F5989C /* PBXTargetDependency */ = {
+		3DC1067E9B2E9ADEB90799D60CEE8B57 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-podTestOne_Example";
-			target = DC07B583C8301408D886950CA3972138 /* Pods-podTestOne_Example */;
-			targetProxy = 56B28BC99DACE2A2610A3BA3DB766227 /* PBXContainerItemProxy */;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = 8DAB8DF1776F839C042F063920A384FE /* PBXContainerItemProxy */;
 		};
-		F0943A251C3EFFD3A42E32A137A1EFE1 /* PBXTargetDependency */ = {
+		64D2324A2DEAE070D9C8AA9F7494CF13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = 9CE9199AEBF5F650C24C0DB4F884D3B7 /* PBXContainerItemProxy */;
+		};
+		9E5E078D35D36FBB74AB4F7A8B52D94C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = podTestOne;
 			target = 724BC4388EAE370AEF7EE1C80641D901 /* podTestOne */;
-			targetProxy = 41126851246185FD78C53601DE1FB540 /* PBXContainerItemProxy */;
+			targetProxy = 8375B9FBCCA2AD81E4EE3EFF886B3331 /* PBXContainerItemProxy */;
+		};
+		F243DA65427FB793E995562774BE44AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-podTestOne_Example";
+			target = DC07B583C8301408D886950CA3972138 /* Pods-podTestOne_Example */;
+			targetProxy = 4D07BBAE756C2754869AFFEF635AAE28 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		034BECCF62DB5ADAB1A3BFCA3009B2C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BAF87D7EE688D6EC321DDE8A4E0D969 /* WechatOpenSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		069ADBDDB304E1436B44E524596D9943 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D2179076F561AA000DB86564BC365AAE /* Pods-podTestOne_Tests.debug.xcconfig */;
@@ -443,9 +556,9 @@
 			};
 			name = Debug;
 		};
-		1F9257A1E508C0CB63D028A1D85616F6 /* Debug */ = {
+		2134749222CBB1A6C17D3BD9AC196CC8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DAF789609FACFEBD364B25971A61872 /* podTestOne.debug.xcconfig */;
+			baseConfigurationReference = 2F94D2FBD52407AD64EB35A674F3EF14 /* podTestOne.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -462,8 +575,9 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/podTestOne/podTestOne-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/podTestOne/podTestOne.modulemap";
 				PRODUCT_MODULE_NAME = podTestOne;
 				PRODUCT_NAME = podTestOne;
@@ -473,14 +587,15 @@
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		3DEF614B9C074EDCBD4410CB953AC1C5 /* Debug */ = {
+		431214C2BFD9EA9A8577BF2C92AC41C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5599F541ACD208ED60EC5BD57939CB35 /* Pods-podTestOne_Example.debug.xcconfig */;
+			baseConfigurationReference = 70A93902FC7655B46F27C9F481FD8D82 /* Pods-podTestOne_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -575,39 +690,18 @@
 			};
 			name = Release;
 		};
-		97307E3D1ADB837C88D193957FE591BE /* Release */ = {
+		948F00CDED0475BE17AFE054A206AF2A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5634EE504D4EDE3349088923467D45F1 /* Pods-podTestOne_Example.release.xcconfig */;
+			baseConfigurationReference = C91C16DF701B3E79C6A9D2DA58668684 /* WechatOpenSDK.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-podTestOne_Example/Pods-podTestOne_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-podTestOne_Example/Pods-podTestOne_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -647,9 +741,9 @@
 			};
 			name = Release;
 		};
-		B16D98E7BBE0F3680BB0A8EB9245B299 /* Release */ = {
+		D0EEB9873D3A11A513AC93B6FA5311EB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D78F3BAE233B180DC1BDF2ADD27EF67 /* podTestOne.release.xcconfig */;
+			baseConfigurationReference = CA47412077506CDC574747904DB2A703 /* podTestOne.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -666,8 +760,9 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/podTestOne/podTestOne-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/podTestOne/podTestOne.modulemap";
 				PRODUCT_MODULE_NAME = podTestOne;
 				PRODUCT_NAME = podTestOne;
@@ -677,11 +772,10 @@
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -749,9 +843,54 @@
 			};
 			name = Debug;
 		};
+		D5EFE9266C0660CB5757E7C19525E874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 143B8C55BC58000F06845D8D856284F2 /* Pods-podTestOne_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-podTestOne_Example/Pods-podTestOne_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-podTestOne_Example/Pods-podTestOne_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		011E23C81DE47A33D402963E5E481506 /* Build configuration list for PBXNativeTarget "Pods-podTestOne_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				431214C2BFD9EA9A8577BF2C92AC41C5 /* Debug */,
+				D5EFE9266C0660CB5757E7C19525E874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -761,20 +900,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		677E378CBBC80A2B212037BB96CD34A2 /* Build configuration list for PBXNativeTarget "Pods-podTestOne_Example" */ = {
+		4AF0DF2249DC5CF1F6B67BE5469CE54C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3DEF614B9C074EDCBD4410CB953AC1C5 /* Debug */,
-				97307E3D1ADB837C88D193957FE591BE /* Release */,
+				034BECCF62DB5ADAB1A3BFCA3009B2C8 /* Debug */,
+				948F00CDED0475BE17AFE054A206AF2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		86F66E088F81BEDCFB92C3B8229409FF /* Build configuration list for PBXNativeTarget "podTestOne" */ = {
+		69F5422E4AEC61228049ECFFA4A95523 /* Build configuration list for PBXNativeTarget "podTestOne" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F9257A1E508C0CB63D028A1D85616F6 /* Debug */,
-				B16D98E7BBE0F3680BB0A8EB9245B299 /* Release */,
+				D0EEB9873D3A11A513AC93B6FA5311EB /* Debug */,
+				2134749222CBB1A6C17D3BD9AC196CC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

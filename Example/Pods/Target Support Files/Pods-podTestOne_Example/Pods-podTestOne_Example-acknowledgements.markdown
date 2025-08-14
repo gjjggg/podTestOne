@@ -1,6 +1,11 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## WechatOpenSDK
+
+Copyright 2020 tencent.com. All rights reserved.
+
+
 ## podTestOne
 
 Copyright (c) 2025 gjjggg <1271719322@qq.com>
