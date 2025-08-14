@@ -33,6 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'podTestOne/Classes/**/*.{h,m}'
   s.vendored_frameworks = 'SDK/jihuoniao_target_ads.framework'
   s.resources = ['SDK/*.{bundle}']
+
   
   # s.resource_bundles = {
   #   'podTestOne' => ['podTestOne/Assets/*.png']
@@ -43,6 +44,6 @@ TODO: Add long description of the pod here.
   'Accelerate','AddressBook','AdSupport','AppTrackingTransparency','AudioToolbox','AVFoundation','AVKit','CoreData','CFNetwork','CoreFoundation','CoreGraphics','CoreMotion','CoreML','CoreHaptics','CoreTelephony','CoreText','CoreLocation','DeviceCheck','Foundation','ImageIO','JavaScriptCore','MediaPlayer','MessageUI','MobileCoreServices','QuartzCore','QuickLook','SafariServices','Security','StoreKit','UIKit','WebKit','SystemConfiguration','QuartzCore','MobileCoreServices'
 
   s.libraries = 'bz2', 'c++', 'iconv', 'resolv.9', 'sqlite3', 'xml2', 'z', 'c++abi'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'WechatOpenSDK'
 end
  
