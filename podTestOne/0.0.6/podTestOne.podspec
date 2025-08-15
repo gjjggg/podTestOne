@@ -35,6 +35,9 @@ TODO: Add long description of the pod here.
   s.source_files = 'podTestOne/Classes/**/*.{h,m}'
   s.vendored_frameworks = 'SDK/jihuoniao_target_ads.framework'
 #  s.resources = ['SDK/jihuoniao_target_ads.bundle']
+  s.resource_bundles = {
+    'jihuoniao_target_ads' => ['SDK/jihuoniao_target_ads.bundle/**/*']
+  }
 
   
 #   s.resource_bundles = {
