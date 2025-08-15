@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'podTestOne'
-  s.version          = '0.0.5'
+  s.version          = '0.0.6'
   s.summary          = 'A short description of podTestOne.'
 
 # This description is used to generate tags and improve search results.
@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'podTestOne/Classes/**/*.{h,m}'
   s.vendored_frameworks = 'SDK/jihuoniao_target_ads.framework'
-  s.resources = ['SDK/jihuoniao_target_ads.bundle']
+#  s.resources = ['SDK/jihuoniao_target_ads.bundle']
 
   
 #   s.resource_bundles = {
